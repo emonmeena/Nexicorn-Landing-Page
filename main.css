@@ -1,0 +1,221 @@
+.logo{
+    color: #FFD700;
+}
+
+
+.glowing-text {
+    color: #ffffff; /* White text color */
+    text-shadow:
+      0 0 6px rgba(255, 255, 255, 0.3), /* White glow */
+      0 0 10px rgba(255, 255, 255, 0.2), /* Larger white glow */
+      0 0 12px rgba(255, 255, 255, 0.1); /* Even larger white glow */
+    font-size: 2em; /* Example font size, adjust as needed */
+    font-weight: bold; /* Bold font weight for thicker text */
+    font-family: Arial, sans-serif; /* Example font family, adjust as needed */
+  }
+
+  .glow-navy:hover{
+
+    transition: box-shadow 0.3s ease;
+    box-shadow:
+    0 0 6px rgba(17,242,173, 1), /* Close shadow with a strong glow */
+    0 0 10px rgb(17,242,173), /* Medium distance shadow */
+    0 0 14px rgba(17,242,173, 1), /* Farthest shadow with a strong glow */
+    0 10px 20px rgba(255, 255, 255, 0.25), /* Large diffuse shadow to create elevation */
+    0 15px 30px rgba(123, 148, 223, 0.15) !important; 
+  }
+  .highlight-text{
+    color:rgb(17,242,173);
+  }
+  .button-hover:hover{
+    background-color:rgb(17,242,173,0.7)!important;
+  }
+  .hide{visibility: hidden;}
+
+  /* The Modal (background) */
+.modal {
+    display: none; 
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    
+  
+  }
+  
+  /* Modal Content Box */
+  .modal-content {
+    background-color: rgb(255, 255, 255);
+    margin: 10% auto; /* 10% from the top and centered */
+    padding: 20px;
+    border-radius: 2em;
+    width: 90%; /* Could be more or less, depending on screen size */
+    max-width: 400px; /* Maximum width */
+    
+  }
+  .modal-content:hover{
+    box-shadow:
+    0 0 6px rgba(17,242,173, 1), /* Close shadow with a strong glow */
+    0 0 10px rgb(2, 13, 47), /* Medium distance shadow */
+    0 0 14px rgba(2, 13, 47, 1), /* Farthest shadow with a strong glow */
+    0 10px 20px rgba(255, 255, 255, 0.25), /* Large diffuse shadow to create elevation */
+    0 15px 30px rgba(2, 13, 47, 0.15) !important; 
+  }
+
+  .input-icon {
+    position: relative;
+  }
+  
+  .input-icon-name input {
+
+    background-image: url('public/name.svg');
+   
+  }
+
+  .input-icon-email input {
+
+    background-image: url('public/email.svg');
+   
+  }
+
+  .input-icon-phone input {
+
+    background-image: url('public/phone.svg');
+   
+  }
+
+  .input-icon-business input {
+
+    background-image: url('public/business.svg');
+   
+  }
+  .input-icon input {
+    padding-left: 2em !important; 
+    background-repeat: no-repeat;
+    background-position: 8px center; /* Adjust as needed */
+    background-size: 16px; /* Adjust as needed */
+    border: 1px solid gray; /* Default border color */
+    /* Other input styles */
+  }
+  
+  .input-icon input:focus {
+    border-color: lightblue; /* Change border color on focus */
+    /* Additional focus styles */
+  }
+  
+  
+  /* The Close Button */
+  .close {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Style the input fields */
+  input[type=text],
+  input[type=email],
+  input[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 40em;
+    box-sizing: border-box;
+  }
+  
+  /* Style the submit button */
+  .btn-submit {
+    width: 100%;
+    background-color: #372d91 !important; /* Adjust the color to match your brand */
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 2%;
+    cursor: pointer;
+  }
+  
+  .btn-submit:hover {
+    
+    background-color: rgb(55, 45, 145, 0.9) !important;
+    transition: 0.1s;
+  }
+  
+  /* Privacy policy style */
+  .privacy-policy {
+    color: #6c757d;
+    font-size: 0.8rem;
+    margin-top: 12px;
+  }
+  
+  /* Headings style */
+  h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Style the placeholder text */
+  ::placeholder {
+    color: #aab7c4;
+  }
+  
+  /* Ensure the form is displayed as a block */
+  form {
+    display: block;
+  }
+  a:hover{
+    cursor:pointer;
+  }
+
+  .blur-effect {
+    filter: blur(5px);
+  }
+  
+  /* Exclude the modal from the blur effect */
+  #myModal {
+    filter: none !important;
+  }
+
+  .prevent-scroll {
+    overflow: hidden;
+  }
+  .gray-image{
+    /* filter: grayscale(100px); */
+    /* background-color: rgb(216, 216, 216); Gray color */
+    mix-blend-mode: difference; 
+    padding: 2em;
+    border-radius: 3em;
+    /* min-width: 100vw; */
+  }
+
+  
+
+
+
+  /* .video-process-img{
+    max-width: 30vw;
+    max-height: 30vw;
+
+  }
+   */
+
+  
+  
+  
+
+
+  
+  
