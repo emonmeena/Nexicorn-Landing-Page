@@ -67,5 +67,28 @@ btns.forEach(function(btn) {
     }
   }
 
+  function toggleMenu() {
+    var navContainer = document.getElementById("nav-container");
+    var line1 = document.getElementById("line1");
+    var line2 = document.getElementById("line2");
+    document.body.classList.toggle('prevent-scroll');
 
+
+    // line1.classList.toggle("transform-line1");
+    // line2.classList.toggle("transform-line2");
+    var header = document.getElementById("header")
+    header.classList.toggle("hidden");
+    navContainer.classList.toggle("hidden");
+}
+ var menuHamburger = document.getElementById("menu")
+ var menuHamburgerclose = document.getElementById("close-mb-menu")
+
+menuHamburger.onclick = toggleMenu;
+menuHamburgerclose.onclick = toggleMenu;
+
+
+var mobMenuBtns = document.querySelectorAll('.mobile-menu-btn');
+mobMenuBtns.forEach(function(btn) {
+    btn.onclick = toggleMenu;
+  });
 //
