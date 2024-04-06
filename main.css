@@ -221,6 +221,13 @@ cursor: pointer;
   transform: rotate(-45deg) translate(7px, -8px);
 }
 
+.green:hover
+{background-color: #16a34a!important;
+  color: #ffffff;
+border-color: #16a34a!important;
+transition: 0.2s;
+}
+
 
   
 
