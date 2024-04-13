@@ -25,10 +25,10 @@
         <meta name="twitter:image" content="/og-cover.png" />
     </head>
     
-    <body class="bg-white dark:bg-gray-900 dark:before:fixed dark:before:-z-50 dark:before:inset-0 dark:before:bg-gray-950/50">
+    <body class="bg-gray-900 before:fixed before:-z-50 before:inset-0 before:bg-gray-950/50  dark:bg-gray-900 dark:before:fixed dark:before:-z-50 dark:before:inset-0 dark:before:bg-gray-950/50">
         <div id="page-content">
         <header id="header">
-        <nav class="fixed overflow-hidden z-20 w-full bg-white/80 dark:bg-gray-950/0 dark:shadow-md rounded-b-lg dark:shadow-gray-950/10 border-b border-[--ui-light-border-color] border-x dark:border-[--ui-dark-border-color] backdrop-blur-2xl">
+        <nav class="fixed overflow-hidden z-20 w-full bg-gray-950/0 shadow-gray-950/10 shadow-md shadow-md border-[--ui-dark-border-color] dark:bg-gray-950/0 dark:shadow-md rounded-b-lg dark:shadow-gray-950/10 border-b border-x dark:border-[--ui-dark-border-color] backdrop-blur-2xl">
             <div class="px-6 m-auto max-w-6xl 2xl:px-0">
                 <div class="flex flex-wrap items-center justify-between py-2 sm:py-4">
                     <div class="w-full items-center flex justify-between lg:w-auto">
@@ -45,22 +45,22 @@
                             </svg> -->
                         </a>
                         <div class="flex lg:hidden">
-                            <button aria-label="humburger" id="menu" class="relative border bordeer-gray-950/30 dark:border-white/20 size-9 rounded-full transition duration-300 active:scale-95">
-                                <div aria-hidden="true" id="line1" class="hamburger-line m-auto h-[1.5px] w-4 rounded bg-gray-900 transition duration-300 dark:bg-gray-300"></div>
-                                <div aria-hidden="true" id="line2" class="hamburger-line m-auto mt-1.5 h-[1.5px] w-4 rounded bg-gray-900 transition duration-300 dark:bg-gray-300"></div>
+                            <button aria-label="humburger" id="menu" class="relative border bordeer-white/20 dark:border-white/20 size-9 rounded-full transition duration-300 active:scale-95">
+                                <div aria-hidden="true" id="line1" class="hamburger-line m-auto h-[1.5px] w-4 rounded bg-gray-300 transition duration-300 dark:bg-gray-300"></div>
+                                <div aria-hidden="true" id="line2" class="hamburger-line m-auto mt-1.5 h-[1.5px] w-4 rounded bg-gray-300 transition duration-300 dark:bg-gray-300"></div>
                             </button>
                         </div>
                     </div>
                     <div class="w-full h-0 lg:w-fit flex-wrap justify-end items-center space-y-8 lg:space-y-0 lg:flex lg:h-fit md:flex-nowrap">
-                        <div class="mt-6 text-gray-600 dark:text-gray-300 md:-ml-4 lg:pr-4 lg:mt-0">
+                        <div class="mt-6 text-gray-300 dark:text-gray-300 md:-ml-4 lg:pr-4 lg:mt-0">
                             <ul class="space-y-6 tracking-wide text-base lg:text-sm lg:flex lg:space-y-0">
                                 <li>
-                                    <a href="#Product" class="block md:px-4 transition hover:text-primary-600 dark:hover:text-primary-400">
+                                    <a href="#Product" class="block md:px-4 transition hover:text-primary-400 dark:hover:text-primary-400">
                                         <span>Product</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#Pricing" class="block md:px-4 transition hover:text-primary-600 dark:hover:text-primary-400">
+                                    <a href="#Pricing" class="block md:px-4 transition hover:text-primary-400 dark:hover:text-primary-400">
                                         <span>Pricing</span>
                                     </a>
                                 </li>
@@ -77,7 +77,7 @@
                             </ul>
                         </div>
 
-                        <div class="w-full space-y-2 gap-2 pt-6 pb-4 lg:pb-0 border-t border-[--ui-light-border-color] dark:border-[--ui-dark-border-color] items-center flex flex-col lg:flex-row lg:space-y-0 lg:w-fit lg:border-l lg:border-t-0 lg:pt-0 lg:pl-2">
+                        <div class="w-full space-y-2 gap-2 pt-6 pb-4 lg:pb-0 border-t border-[--ui-dark-border-color] dark:border-[--ui-dark-border-color] items-center flex flex-col lg:flex-row lg:space-y-0 lg:w-fit lg:border-l lg:border-t-0 lg:pt-0 lg:pl-2">
                             <!-- <button class="w-full h-9 lg:w-fit group flex items-center rounded-[--btn-border-radius] disabled:border *:select-none [&>*:not(.sr-only)]:relative *:disabled:opacity-20 *:disabled:text-gray-950 disabled:border-gray-200 disabled:bg-gray-100 dark:disabled:border dark:disabled:border-gray-800 disabled:dark:bg-gray-900 dark:*:disabled:!text-white text-gray-800 hover:bg-gray-100 active:bg-gray-200/75 dark:text-gray-300 dark:hover:bg-gray-500/10 dark:active:bg-gray-500/15 lg:text-sm lg:h-8 px-3.5 justify-center">
                                 <span>Login</span>
                             </button> -->
@@ -91,19 +91,19 @@
         </nav>
     </header>
     <section>
-        <div id="nav-container" class="fixed inset-0 bg-opacity-1 bg-white/80 dark:bg-gray-950/90 hidden lg:hidden z-50" style="width: 100vw; height: 100vh;">
+        <div id="nav-container" class="fixed inset-0 bg-opacity-1 bg-gray-950/90 dark:bg-gray-950/90 hidden lg:hidden z-50" style="width: 100vw; height: 100vh;">
             <!-- Close Button -->
             <button aria-label="close" id="close-mb-menu" class="absolute top-5 right-5 text-white text-3xl">&times;</button>
         
-            <div class="text-gray-600 dark:text-gray-300 py-4">
+            <div class="text-gray-300 dark:text-gray-300 py-4">
                 <ul class="divide-y divide-gray-400">
                     <li>
-                        <a href="#Product" class="block mobile-menu-btn px-4 py-3 transition hover:text-primary-600 dark:hover:text-primary-400">
+                        <a href="#Product" class="block mobile-menu-btn px-4 py-3 transition hover:text-primary-300 dark:hover:text-primary-300">
                             <span>Product</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#Pricing" class="block mobile-menu-btn px-4 py-3 transition hover:text-primary-600 dark:hover:text-primary-400">
+                        <a href="#Pricing" class="block mobile-menu-btn px-4 py-3 transition hover:text-primary-300 dark:hover:text-primary-400">
                             <span>Pricing</span>
                         </a>
                     </li>
@@ -112,7 +112,7 @@
             </div>
         
             <div class="w-full px-4">
-                <button class="contact-btn green button-hover 0  w-full h-9 lg:w-fit group flex items-center relative border rounded-[--btn-border-radius] *:select-none [&>*:not(.sr-only)]:relative before:rounded-[calc(var(--btn-border-radius)-1px)] before:absolute before:inset-0 before:border  *:disabled:opacity-20 disabled:text-gray-950/40 disabled:border-gray-200 disabled:bg-gray-100 disabled:*:text-gray-300 disabled:before:border-transparent disabled:before:bg-gray-100 disabled:before:from-transparent dark:border-0 dark:before:border-0 dark:before:border-t dark:before:shadow-inner dark:disabled:border dark:disabled:border-gray-800/50 disabled:dark:bg-gray-900 disabled:dark:*:text-gray-700 dark:disabled:before:bg-gray-900 dark:disabled:before:from-gray-900 dark:disabled:before:shadow-none dark:*:disabled:!text-white text-white border-gray-950 bg-gray-600 before:border-gray-600 before:from-gray-800 hover:bg-gray-900 active:bg-gray-950 dark:text-gray-950 dark:before:border-gray-200 dark:before:from-gray-200 dark:bg-white dark:before:shadow-white/10 dark:hover:bg-gray-100 dark:active:bg-gray-300 dark:active:before:from-gray-200 lg:text-sm lg:h-8 px-3 justify-center">
+                <button class="text-gray-900 bg-white contact-btn green button-hover 0  w-full h-9 lg:w-fit group flex items-center relative border rounded-[--btn-border-radius] *:select-none [&>*:not(.sr-only)]:relative before:rounded-[calc(var(--btn-border-radius)-1px)] before:absolute before:inset-0 before:border   dark:border-0 before:border-0 dark:before:border-0 before:border-t dark:before:border-t before:shadow-inner dark:before:shadow-inner disabled:border dark:disabled:border disabled:border-gray-800/50 dark:disabled:border-gray-800/50 disabled:dark:bg-gray-900 disabled:dark:*:text-gray-700 dark:disabled:before:bg-gray-900 dark:disabled:before:from-gray-900 dark:disabled:before:shadow-none dark:*:disabled:!text-white border-gray-950 bg-gray-600 before:border-gray-600 before:from-gray-800 hover:bg-gray-900 active:bg-gray-950 dark:text-gray-950 dark:before:border-gray-200 dark:before:from-gray-200 dark:bg-white dark:before:shadow-white/10 dark:hover:bg-gray-100 dark:active:bg-gray-300 dark:active:before:from-gray-200 lg:text-sm lg:h-8 px-3 justify-center    dark:border-0 before:border-0 dark:before:border-0 before:border-t dark:before:border-t before:shadow-inner dark:before:shadow-inner disabled:border dark:disabled:border disabled:border-gray-800/50 dark:disabled:border-gray-800/50 disabled:dark:bg-gray-900 disabled:dark:*:text-gray-700 dark:disabled:before:bg-gray-900 dark:disabled:before:from-gray-900 dark:disabled:before:shadow-none dark:*:disabled:!text-white border-gray-950 bg-gray-600 before:border-gray-600 before:from-gray-800 hover:bg-gray-900 active:bg-gray-950 dark:text-gray-950 dark:before:border-gray-200 dark:before:from-gray-200 dark:bg-white dark:before:shadow-white/10 dark:hover:bg-gray-100 dark:active:bg-gray-300 dark:active:before:from-gray-200 lg:text-sm lg:h-8 px-3 justify-center">
                     <span>Request Demo</span>
                 </button>
             </div>
@@ -125,14 +125,14 @@
             <div class="relative mt-10 pt-24 lg:pt-28">
                 <div class="mx-auto px-6 max-w-7xl md:px-12">
                     <div class="text-center sm:mx-auto sm:w-10/12  lg:mr-auto lg:mt-0 lg:w-4/5">
-                        <h1 class="mt-8 text-wrap text-4xl md:text-5xl font-semibold text-gray-950 dark:text-white xl:text-5xl xl:[line-height:1.125] glowing-text">No YouTube influencer can mislead your customers anymore</h1>
-                        <p class="text-wrap mx-auto mt-8 max-w-2xl text-lg text-gray-700 dark:text-gray-300 hidden sm:block">Do you know how many potential customers you are losing because of misleading influencer videos? Curious about the features and issues people are discussing regarding you and your competitors? Book a demo to find out!</p>
-                        <p class="text-wrap mx-auto mt-6 max-w-2xl text-gray-700 dark:text-gray-300 sm:hidden">Do you know how many potential customers you are losing because of misleading influencer videos? Curious about the features and issues people are discussing regarding you and your competitors? Book a demo to find out!</p>
+                        <h1 class="mt-8 text-wrap text-4xl md:text-5xl font-semibold text-white dark:text-white xl:text-5xl xl:[line-height:1.125] glowing-text">No YouTube influencer can mislead your customers anymore</h1>
+                        <p class="text-wrap mx-auto mt-8 max-w-2xl text-lg text-gray-300 dark:text-gray-300 hidden sm:block">Do you know how many potential customers you are losing because of misleading influencer videos? Curious about the features and issues people are discussing regarding you and your competitors? Book a demo to find out!</p>
+                        <p class="text-wrap mx-auto mt-6 max-w-2xl text-gray-300 dark:text-gray-300 sm:hidden">Do you know how many potential customers you are losing because of misleading influencer videos? Curious about the features and issues people are discussing regarding you and your competitors? Book a demo to find out!</p>
                         <div class="mt-8 flex flex-col items-center justify-center gap-4">
-                            <div class="p-1 rounded-[calc(var(--btn-border-radius)+4px)] bg-gray-950/5 border dark:border-white/10 dark:bg-white/5">
+                            <div class="p-1 rounded-[calc(var(--btn-border-radius)+4px)] bg-white/5 border border-white/10 dark:border-white/10 dark:bg-white/5">
                                 <a
                                     
-                                    class="*:select-none dark:shadow-primary-500/10 *:disabled:opacity-20 disabled:*:text-gray-300 disabled:dark:*:text-gray-700 dark:*:disabled:!text-white group relative z-[1] flex h-11 items-center justify-center gap-1.5 rounded-[--btn-border-radius] border border-primary-600 bg-primary-500 px-4 text-base text-white shadow-md shadow-primary-200 before:absolute before:inset-0 before:rounded-[calc(var(--btn-border-radius)-1px)] before:border before:border-primary-500 before:bg-gradient-to-b before:from-primary-600 hover:bg-primary-600 active:bg-primary-700 disabled:border-gray-200 disabled:bg-gray-100 disabled:text-gray-950/40 disabled:before:border-transparent disabled:before:bg-gray-100 disabled:before:from-transparent dark:border-0 dark:bg-primary-600 dark:before:border-0 dark:before:border-t dark:before:border-primary-400 dark:before:shadow-inner dark:before:shadow-white/10 dark:hover:bg-primary-700 dark:active:bg-primary-800 dark:active:before:from-primary-700 dark:disabled:border dark:disabled:border-gray-800/50 disabled:dark:bg-gray-900 dark:disabled:before:bg-gray-900 dark:disabled:before:from-gray-900 dark:disabled:before:shadow-none [&>*:not(.sr-only)]:relative"
+                                    class="*:select-none shadow-primary-500/10 dark:shadow-primary-500/10 *:disabled:opacity-20 disabled:*:text-gray-300 disabled:*:text-gray-700 dark:*:!text-white group  disabled:dark:*:text-gray-700 dark:*:disabled:!text-white group relative z-[1] flex h-11 items-center justify-center gap-1.5 rounded-[--btn-border-radius] border border-primary-600 bg-primary-500 px-4 text-base text-white shadow-md shadow-primary-200 before:absolute before:inset-0 before:rounded-[calc(var(--btn-border-radius)-1px)] before:border before:border-primary-500 before:bg-gradient-to-b before:from-primary-600 hover:bg-primary-600 active:bg-primary-700 disabled:border-gray-200 disabled:bg-gray-100 disabled:text-gray-950/40 disabled:before:border-transparent disabled:before:bg-gray-100 disabled:before:from-transparent dark:border-0 dark:bg-primary-600 dark:before:border-0 dark:before:border-t dark:before:border-primary-400 dark:before:shadow-inner dark:before:shadow-white/10 dark:hover:bg-primary-700 dark:active:bg-primary-800 dark:active:before:from-primary-700 dark:disabled:border dark:disabled:border-gray-800/50 disabled:dark:bg-gray-900 dark:disabled:before:bg-gray-900 dark:disabled:before:from-gray-900 dark:disabled:before:shadow-none [&>*:not(.sr-only)]:relative"
                                 >
                                     <svg class="size-5 relative" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path class="opacity-20 dark:opacity-50" d="M7.40705 15L5.10627 16.7375C5.0234 16.8039 4.92499 16.848 4.82033 16.8658C4.71567 16.8836 4.6082 16.8744 4.50806 16.8392C4.40793 16.8039 4.31842 16.7437 4.24798 16.6643C4.17755 16.5849 4.12851 16.4888 4.10549 16.3852L3.13986 12.0391C3.11906 11.9458 3.11993 11.8489 3.14241 11.756C3.16489 11.6631 3.20839 11.5766 3.26955 11.5031L5.63752 8.66484C5.5469 10.4883 5.99221 12.6117 7.40705 15ZM16.7305 11.5031L14.3625 8.66484C14.4571 10.4883 14.0078 12.6117 12.593 15L14.8938 16.7375C14.9766 16.8039 15.075 16.848 15.1797 16.8658C15.2844 16.8836 15.3918 16.8744 15.492 16.8392C15.5921 16.8039 15.6816 16.7437 15.7521 16.6643C15.8225 16.5849 15.8715 16.4888 15.8946 16.3852L16.8602 12.0391C16.881 11.9458 16.8801 11.8489 16.8576 11.756C16.8351 11.6631 16.7917 11.5766 16.7305 11.5031Z" fill="currentColor"></path>
@@ -152,41 +152,41 @@
                         </div>
                     </div>
                     <div class="-mx-6 relative mt-8 sm:mt-12 max-w-xl sm:mx-auto">
-                        <div class="absolute inset-0 -top-8 left-1/2 -z-20 h-56 w-full -translate-x-1/2 dark:opacity-10 [background-image:linear-gradient(to_bottom,transparent_98%,theme(colors.gray.200/75%)_98%),linear-gradient(to_right,transparent_94%,_theme(colors.gray.200/75%)_94%)] [background-size:16px_35px] [mask:radial-gradient(black,transparent_95%)]"></div>
-                        <div class="absolute top-12 inset-x-0 w-2/3 h-1/3 -z-[1] rounded-full bg-primary-300 dark:bg-white/10 mx-auto blur-3xl"></div>
+                        <div class="absolute inset-0 -top-8 left-1/2 -z-20 h-56 w-full -translate-x-1/2 opacity-10 dark:opacity-10 [background-image:linear-gradient(to_bottom,transparent_98%,theme(colors.gray.200/75%)_98%),linear-gradient(to_right,transparent_94%,_theme(colors.gray.200/75%)_94%)] [background-size:16px_35px] [mask:radial-gradient(black,transparent_95%)]"></div>
+                        <div class="absolute top-12 inset-x-0 w-2/3 h-1/3 -z-[1] rounded-full bg-primary-300 dark:bg-primary-300 mx-auto blur-3xl"></div>
                         
                         <div class="swiper proofSlides mt-40 pb-6">
                             <div class="swiper-wrapper">
                                 <div class="px-6 pt-2 pb-12 swiper-slide">
-                                    <div class="bg-white shadow-xl shadow-gray-950/5 p-[--card-padding] rounded-[--card-border-radius] border-[--ui-light-border-color] dark:border-[--ui-dark-border-color] dark:bg-[--card-dark-bg] relative border-[length:var(--border-width)] [--anchor:100] [--border-radius:calc(var(--radius)*1px)] [--border-width:calc(var(--border)*1px)] [--border:1] [--glow:60] [--hue:179] [--lightness:55%] dark:[--lightness:14%] [--opacity:1] [--radius:24] [--saturation:78%] dark:[--saturation:97%] [--speed:2]">
+                                    <div class="bg-[--card-dark-bg] shadow-xl shadow-gray-950/5 p-[--card-padding] rounded-[--card-border-radius] border-[--ui-dark-border-color] dark:border-[--ui-dark-border-color] dark:bg-[--card-dark-bg] relative border-[length:var(--border-width)] [--anchor:100] [--border-radius:calc(var(--radius)*1px)] [--border-width:calc(var(--border)*1px)] [--border:1] [--glow:60] [--hue:179] [--lightness:55%] dark:[--lightness:14%] [--opacity:1] [--radius:24] [--saturation:78%] dark:[--saturation:97%] [--speed:2]">
                                         <div>
-                                            <h2 class="text-lg font-medium text-white-800 transition text-center dark:text-white">Identify YouTube influencers swaying customers to your competitors.</h2>
+                                            <h2 class="text-lg font-medium text-white transition text-center dark:text-white">Identify YouTube influencers swaying customers to your competitors.</h2>
                                             <!-- <p class="mt-6 text-lg text-gray-950 dark:text-gray text-center">By being responsive and proactive in managing your brand reputation, foster a stronger sense of trust and loyalty among your existing and potential customers.</p> -->
                                         </div>
                                         <span class="glow absolute inset-[calc(var(--border-width)*-1)] rounded-[--card-border-radius] border-[length:var(--border-width)] border-transparent ![mask-clip:padding-box,_border-box] ![mask-composite:intersect] [mask:linear-gradient(transparent,transparent),linear-gradient(white,white)]">
-                                            <span class="absolute inline-block aspect-square h-20 bg-[radial-gradient(circle_at_right,hsl(0_0%_100%/0),transparent_50%),radial-gradient(circle_at_right,hsl(var(--hue)_var(--saturation)_var(--lightness,50%)/1)_50%,transparent)] dark:bg-[radial-gradient(circle_at_right,hsl(0_0%_100%/0.75),transparent_50%),radial-gradient(circle_at_right,hsl(var(--hue)_var(--saturation)_var(--lightness,50%)/1)_50%,transparent)] opacity-[var(--opacity)] [animation:loop_5s_infinite_linear] [offset-anchor:calc(var(--anchor)*1%)_50%] [offset-path:rect(0_100%_100%_0_round_calc(var(--glow)*1px))]"></span>
+                                            <span class="absolute inline-block aspect-square h-20 bg-[radial-gradient(circle_at_right,hsl(0_0%_100%/0.75),transparent_50%),radial-gradient(circle_at_right,hsl(var(--hue)_var(--saturation)_var(--lightness,50%)/1)_50%,transparent)]  dark:bg-[radial-gradient(circle_at_right,hsl(0_0%_100%/0.75),transparent_50%),radial-gradient(circle_at_right,hsl(var(--hue)_var(--saturation)_var(--lightness,50%)/1)_50%,transparent)] opacity-[var(--opacity)] [animation:loop_5s_infinite_linear] [offset-anchor:calc(var(--anchor)*1%)_50%] [offset-path:rect(0_100%_100%_0_round_calc(var(--glow)*1px))]"></span>
                                         </span>
                                     </div>
                                 </div>
                                 <div class="px-6 pt-2 pb-12 swiper-slide">
-                                    <div class="bg-white shadow-xl shadow-gray-950/5 p-[--card-padding] rounded-[--card-border-radius] border-[--ui-light-border-color] dark:border-[--ui-dark-border-color] dark:bg-[--card-dark-bg] relative border-[length:var(--border-width)] [--anchor:100] [--border-radius:calc(var(--radius)*1px)] [--border-width:calc(var(--border)*1px)] [--border:1] [--glow:60] [--hue:179] [--lightness:55%] dark:[--lightness:14%] [--opacity:1] [--radius:24] [--saturation:78%] dark:[--saturation:97%] [--speed:2]">
+                                    <div class="bg-[--card-dark-bg] shadow-xl shadow-gray-950/5 p-[--card-padding] rounded-[--card-border-radius] border-[--ui-dark-border-color] dark:border-[--ui-dark-border-color] dark:bg-[--card-dark-bg] relative border-[length:var(--border-width)] [--anchor:100] [--border-radius:calc(var(--radius)*1px)] [--border-width:calc(var(--border)*1px)] [--border:1] [--glow:60] [--hue:179] [--lightness:55%] dark:[--lightness:14%] [--opacity:1] [--radius:24] [--saturation:78%] dark:[--saturation:97%] [--speed:2]">
                                         <div>
-                                            <h2 class="text-lg font-medium text-white-800 transition text-center dark:text-white">Understand the pain points faced by your customers.</h2>
+                                            <h2 class="text-lg font-medium text-white transition text-center dark:text-white">Understand the pain points faced by your customers.</h2>
                                             <!-- <p class="mt-6 text-lg text-gray-950 dark:text-gray text-center">By being responsive and proactive in managing your brand reputation, foster a stronger sense of trust and loyalty among your existing and potential customers.</p> -->
                                         </div>
                                         <span class="glow absolute inset-[calc(var(--border-width)*-1)] rounded-[--card-border-radius] border-[length:var(--border-width)] border-transparent ![mask-clip:padding-box,_border-box] ![mask-composite:intersect] [mask:linear-gradient(transparent,transparent),linear-gradient(white,white)]">
-                                            <span class="absolute inline-block aspect-square h-20 bg-[radial-gradient(circle_at_right,hsl(0_0%_100%/0),transparent_50%),radial-gradient(circle_at_right,hsl(var(--hue)_var(--saturation)_var(--lightness,50%)/1)_50%,transparent)] dark:bg-[radial-gradient(circle_at_right,hsl(0_0%_100%/0.75),transparent_50%),radial-gradient(circle_at_right,hsl(var(--hue)_var(--saturation)_var(--lightness,50%)/1)_50%,transparent)] opacity-[var(--opacity)] [animation:loop_5s_infinite_linear] [offset-anchor:calc(var(--anchor)*1%)_50%] [offset-path:rect(0_100%_100%_0_round_calc(var(--glow)*1px))]"></span>
+                                            <span class="absolute inline-block aspect-square h-20 bg-[radial-gradient(circle_at_right,hsl(0_0%_100%/0.75),transparent_50%),radial-gradient(circle_at_right,hsl(var(--hue)_var(--saturation)_var(--lightness,50%)/1)_50%,transparent)]  dark:bg-[radial-gradient(circle_at_right,hsl(0_0%_100%/0.75),transparent_50%),radial-gradient(circle_at_right,hsl(var(--hue)_var(--saturation)_var(--lightness,50%)/1)_50%,transparent)] opacity-[var(--opacity)] [animation:loop_5s_infinite_linear] [offset-anchor:calc(var(--anchor)*1%)_50%] [offset-path:rect(0_100%_100%_0_round_calc(var(--glow)*1px))]"></span>
                                         </span>
                                     </div>
                                 </div>
                                 <div class="px-6 pt-2 pb-12 swiper-slide">
-                                    <div class="bg-white shadow-xl shadow-gray-950/5 p-[--card-padding] rounded-[--card-border-radius] border-[--ui-light-border-color] dark:border-[--ui-dark-border-color] dark:bg-[--card-dark-bg] relative border-[length:var(--border-width)] [--anchor:100] [--border-radius:calc(var(--radius)*1px)] [--border-width:calc(var(--border)*1px)] [--border:1] [--glow:60] [--hue:179] [--lightness:55%] dark:[--lightness:14%] [--opacity:1] [--radius:24] [--saturation:78%] dark:[--saturation:97%] [--speed:2]">
+                                    <div class="bg-[--card-dark-bg] shadow-xl shadow-gray-950/5 p-[--card-padding] rounded-[--card-border-radius] border-[--ui-dark-border-color] dark:border-[--ui-dark-border-color] dark:bg-[--card-dark-bg] relative border-[length:var(--border-width)] [--anchor:100] [--border-radius:calc(var(--radius)*1px)] [--border-width:calc(var(--border)*1px)] [--border:1] [--glow:60] [--hue:179] [--lightness:55%] dark:[--lightness:14%] [--opacity:1] [--radius:24] [--saturation:78%] dark:[--saturation:97%] [--speed:2]">
                                         <div>
-                                            <h2 class="text-lg font-medium text-white-800 transition text-center dark:text-white">Discover your brand's reputation and trust ratings.</h2>
+                                            <h2 class="text-lg font-medium text-white transition text-center dark:text-white">Discover your brand's reputation and trust ratings.</h2>
                                             <!-- <p class="mt-6 text-lg text-gray-950 dark:text-gray text-center">By being responsive and proactive in managing your brand reputation, foster a stronger sense of trust and loyalty among your existing and potential customers.</p> -->
                                         </div>
                                         <span class="glow absolute inset-[calc(var(--border-width)*-1)] rounded-[--card-border-radius] border-[length:var(--border-width)] border-transparent ![mask-clip:padding-box,_border-box] ![mask-composite:intersect] [mask:linear-gradient(transparent,transparent),linear-gradient(white,white)]">
-                                            <span class="absolute inline-block aspect-square h-20 bg-[radial-gradient(circle_at_right,hsl(0_0%_100%/0),transparent_50%),radial-gradient(circle_at_right,hsl(var(--hue)_var(--saturation)_var(--lightness,50%)/1)_50%,transparent)] dark:bg-[radial-gradient(circle_at_right,hsl(0_0%_100%/0.75),transparent_50%),radial-gradient(circle_at_right,hsl(var(--hue)_var(--saturation)_var(--lightness,50%)/1)_50%,transparent)] opacity-[var(--opacity)] [animation:loop_5s_infinite_linear] [offset-anchor:calc(var(--anchor)*1%)_50%] [offset-path:rect(0_100%_100%_0_round_calc(var(--glow)*1px))]"></span>
+                                            <span class="absolute inline-block aspect-square h-20 bg-[radial-gradient(circle_at_right,hsl(0_0%_100%/0.75),transparent_50%),radial-gradient(circle_at_right,hsl(var(--hue)_var(--saturation)_var(--lightness,50%)/1)_50%,transparent)]  dark:bg-[radial-gradient(circle_at_right,hsl(0_0%_100%/0.75),transparent_50%),radial-gradient(circle_at_right,hsl(var(--hue)_var(--saturation)_var(--lightness,50%)/1)_50%,transparent)] opacity-[var(--opacity)] [animation:loop_5s_infinite_linear] [offset-anchor:calc(var(--anchor)*1%)_50%] [offset-path:rect(0_100%_100%_0_round_calc(var(--glow)*1px))]"></span>
                                         </span>
                                     </div>
                                 </div>
@@ -237,17 +237,17 @@
                 <div class="mx-auto px-6 max-w-6xl text-gray-500">
                     <div class="text-center">
 
-                        <h2 class="text-3xl text-gray-950 dark:text-white font-semibold">Transforming Brand Reputation Management with GenAI Insights</h2>
+                        <h2 class="text-3xl text-white dark:text-white font-semibold">Transforming Brand Reputation Management with GenAI Insights</h2>
                         
 
-                        <p class="mt-6 text-gray-700 dark:text-gray-300">Key Features Overview</p>
+                        <p class="mt-6 text-gray-300 dark:text-gray-300">Key Features Overview</p>
                     </div>
                     <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-                        <div class="glow-navy relative group overflow-hidden p-[--card-padding] rounded-[--card-border-radius] bg-white border border-[--ui-light-border-color] dark:border-[--ui-dark-border-color] dark:bg-[--card-dark-bg]">
-                            <div aria-hidden="true" class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-warning-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-0 dark:group-hover:opacity-5"></div>
+                        <div class="glow-navy relative group overflow-hidden p-[--card-padding] rounded-[--card-border-radius] bg-[--card-dark-bg] border border-[--ui-dark-border-color] dark:border-[--ui-dark-border-color] dark:bg-[--card-dark-bg]">
+                            <div aria-hidden="true" class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-warning-500 from-white to-white blur-2xl opacity-25 opacity-0 group-hover:opacity-10 dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-0 dark:group-hover:opacity-5"></div>
                             <div class="relative">
-                                <div class="border border-warning-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-[calc(var(--card-border-radius)/2)] dark:bg-gray-900 dark:border-white/15 before:rounded-[calc((var(--card-border-radius)/2)-1px)] before:absolute before:inset-0 before:border-t before:border-white before:from-warning-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
-                                    <svg class="text-[#000014] dark:text-white" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 128 128">
+                                <div class="border border-warning-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-[calc(var(--card-border-radius)/2)] bg-gray-900 border-white/15  before:border-white/20 before:bg-gradient-to-b before:from-white/10 before:to-transparent before:shadow before:shadow-gray-950 dark:bg-gray-900 dark:border-white/15 before:rounded-[calc((var(--card-border-radius)/2)-1px)] before:absolute before:inset-0 before:border-t before:border-white before:from-warning-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
+                                    <svg class="text-white dark:text-white" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 128 128">
                                         <defs>
                                             <linearGradient id="deviconAstro0" x1="882.997" x2="638.955" y1="27.113" y2="866.902" gradientTransform="scale(.1)" gradientUnits="userSpaceOnUse">
                                                 <stop offset="0" stop-color="currentColor"/>
@@ -265,8 +265,8 @@
                                 </div>
 
                                 <div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
-                                    <h2 class="text-lg font-medium text-gray-800 transition dark:text-white text-left">Advanced Video Analysis</h2>
-                                    <p class="text-gray-700 dark:text-gray-300 mt-4 text-left">Uncover what influencers are saying about your brand through comprehensive YouTube video analysis.</p>
+                                    <h2 class="text-lg font-medium text-white transition dark:text-white text-left">Advanced Video Analysis</h2>
+                                    <p class="text-gray-300 dark:text-gray-300 mt-4 text-left">Uncover what influencers are saying about your brand through comprehensive YouTube video analysis.</p>
                                 </div>
 
                                 <!-- <div class="flex gap-3 -mb-[--card-padding] py-4 border-t border-[--ui-light-border-color] dark:border-[--ui-dark-border-color]">
@@ -281,16 +281,16 @@
                                 </div> -->
                             </div>
                         </div>
-                        <div href="#" class="glow-navy relative group overflow-hidden p-[--card-padding] rounded-[--card-border-radius] bg-white border border-[--ui-light-border-color] dark:border-[--ui-dark-border-color] dark:bg-[--card-dark-bg]">
-                            <div aria-hidden="true" class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-success-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-0 dark:group-hover:opacity-5"></div>
+                        <div href="#" class="glow-navy relative group overflow-hidden p-[--card-padding] rounded-[--card-border-radius] bg-[--card-dark-bg] border border-[--ui-dark-border-color] dark:border-[--ui-dark-border-color] dark:bg-[--card-dark-bg]">
+                            <div aria-hidden="true" class=" from-white to-white blur-2xl opacity-25 opacity-0 group-hover:opacity-10 inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-success-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-0 dark:group-hover:opacity-5"></div>
                             <div class="relative">
-                                <div class="border border-success-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-[calc(var(--card-border-radius)/2)] dark:bg-gray-900 dark:border-white/15 before:rounded-[calc((var(--card-border-radius)/2)-1px)] before:absolute before:inset-0 before:border-t before:border-white before:from-success-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
+                                <div class="border border-success-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-[calc(var(--card-border-radius)/2)] bg-gray-900 border-white/15  before:border-white/20 before:bg-gradient-to-b before:from-white/10 before:to-transparent before:shadow before:shadow-gray-950 dark:bg-gray-900 dark:border-white/15 before:rounded-[calc((var(--card-border-radius)/2)-1px)] before:absolute before:inset-0 before:border-t before:border-white before:from-success-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="0.98em" height="1em" viewBox="0 0 256 263"><defs><linearGradient id="logosSupabaseIcon0" x1="20.862%" x2="63.426%" y1="20.687%" y2="44.071%"><stop offset="0%" stop-color="#249361"/><stop offset="100%" stop-color="#3ecf8e"/></linearGradient><linearGradient id="logosSupabaseIcon1" x1="1.991%" x2="21.403%" y1="-13.158%" y2="34.708%"><stop offset="0%"/><stop offset="100%" stop-opacity="0"/></linearGradient></defs><path fill="url(#logosSupabaseIcon0)" d="M149.602 258.579c-6.718 8.46-20.338 3.824-20.5-6.977l-2.367-157.984h106.229c19.24 0 29.971 22.223 18.007 37.292z"/><path fill="url(#logosSupabaseIcon1)" fill-opacity="0.2" d="M149.602 258.579c-6.718 8.46-20.338 3.824-20.5-6.977l-2.367-157.984h106.229c19.24 0 29.971 22.223 18.007 37.292z"/><path fill="#3ecf8e" d="M106.399 4.37c6.717-8.461 20.338-3.826 20.5 6.976l1.037 157.984H23.037c-19.241 0-29.973-22.223-18.008-37.292z"/></svg>
                                 </div>
 
                                 <div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
-                                    <h2 class="text-lg font-medium text-gray-800 transition dark:text-white text-left">Popular Topics</h2>
-                                    <p class="text-gray-700 dark:text-gray-300 mt-4 text-left">See popular highlights about your and your competitor's products.</p>
+                                    <h2 class="text-lg font-medium text-white transition dark:text-white text-left">Popular Topics</h2>
+                                    <p class="text-gray-300 dark:text-gray-300 mt-4 text-left">See popular highlights about your and your competitor's products.</p>
                                 </div>
 
                                 <!-- <div class="flex gap-3 -mb-[--card-padding] py-4 border-t border-[--ui-light-border-color] dark:border-[--ui-dark-border-color]">
@@ -305,16 +305,16 @@
                                 </div> -->
                             </div>
                         </div>
-                        <div class="glow-navy relative group overflow-hidden p-[--card-padding] rounded-[--card-border-radius] bg-white border border-[--ui-light-border-color] dark:border-[--ui-dark-border-color] dark:bg-[--card-dark-bg]">
-                            <div aria-hidden="true" class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-danger-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-0 dark:group-hover:opacity-5"></div>
+                        <div class="glow-navy relative group overflow-hidden p-[--card-padding] rounded-[--card-border-radius] bg-[--card-dark-bg] border border-[--ui-dark-border-color] dark:border-[--ui-dark-border-color] dark:bg-[--card-dark-bg]">
+                            <div aria-hidden="true" class="from-white to-white blur-2xl opacity-25 opacity-0 group-hover:opacity-10 inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-danger-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-0 dark:group-hover:opacity-5"></div>
                             <div class="relative">
-                                <div class="border border-danger-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-[calc(var(--card-border-radius)/2)] dark:bg-gray-900 dark:border-white/15 before:rounded-[calc((var(--card-border-radius)/2)-1px)] before:absolute before:inset-0 before:border-t before:border-white before:from-danger-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
+                                <div class="border border-danger-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-[calc(var(--card-border-radius)/2)] bg-gray-900 border-white/15  before:border-white/20 before:bg-gradient-to-b before:from-white/10 before:to-transparent before:shadow before:shadow-gray-950 dark:bg-gray-900 dark:border-white/15 before:rounded-[calc((var(--card-border-radius)/2)-1px)] before:absolute before:inset-0 before:border-t before:border-white before:from-danger-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="0.95em" height="1em" viewBox="0 0 256 271"><defs><linearGradient id="logosAngularIcon0" x1="25.071%" x2="96.132%" y1="90.929%" y2="55.184%"><stop offset="0%" stop-color="#e40035"/><stop offset="24%" stop-color="#f60a48"/><stop offset="35.2%" stop-color="#f20755"/><stop offset="49.4%" stop-color="#dc087d"/><stop offset="74.5%" stop-color="#9717e7"/><stop offset="100%" stop-color="#6c00f5"/></linearGradient><linearGradient id="logosAngularIcon1" x1="21.863%" x2="68.367%" y1="12.058%" y2="68.21%"><stop offset="0%" stop-color="#ff31d9"/><stop offset="100%" stop-color="#ff5be1" stop-opacity="0"/></linearGradient></defs><path fill="url(#logosAngularIcon0)" d="m256 45.179l-9.244 145.158L158.373 0zm-61.217 187.697l-66.782 38.105l-66.784-38.105L74.8 199.958h106.4zM128.001 72.249l34.994 85.076h-69.99zM9.149 190.337L0 45.179L97.627 0z"/><path fill="url(#logosAngularIcon1)" d="m256 45.179l-9.244 145.158L158.373 0zm-61.217 187.697l-66.782 38.105l-66.784-38.105L74.8 199.958h106.4zM128.001 72.249l34.994 85.076h-69.99zM9.149 190.337L0 45.179L97.627 0z"/></svg>
                                 </div>
 
                                 <div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
-                                    <h2 class="text-lg font-medium text-gray-800 transition dark:text-white text-left">Know Public Sentiment</h2>
-                                    <p class="text-gray-700 dark:text-gray-300 mt-4 text-left">Vision's AI analyzes user sentiments by sifting through all relevant YouTube comments.</p>
+                                    <h2 class="text-lg font-medium text-white transition dark:text-white text-left">Know Public Sentiment</h2>
+                                    <p class="text-gray-300 dark:text-gray-300 mt-4 text-left">Vision's AI analyzes user sentiments by sifting through all relevant YouTube comments.</p>
                                 </div>
                                 <!-- <div class="flex gap-3 -mb-[--card-padding] py-4 border-t border-[--ui-light-border-color] dark:border-[--ui-dark-border-color]">
                                     <a href="#" download="/" class="group rounded-[--btn-border-radius] disabled:border *:select-none [&>*:not(.sr-only)]:relative *:disabled:opacity-20 disabled:text-gray-950 disabled:border-gray-200 disabled:bg-gray-100 dark:disabled:border-gray-800/50 disabled:dark:bg-gray-900 dark:*:disabled:!text-white text-gray-950 bg-gray-100 hover:bg-gray-200/75 active:bg-gray-100 dark:text-white dark:bg-gray-500/10 dark:hover:bg-gray-500/15 dark:active:bg-gray-500/10 flex gap-1.5 items-center text-sm h-8 px-3.5 justify-center">
@@ -328,16 +328,16 @@
                                 </div> -->
                             </div>
                         </div>
-                        <div class="glow-navy relative group overflow-hidden p-[--card-padding] rounded-[--card-border-radius] bg-white border border-[--ui-light-border-color] dark:border-[--ui-dark-border-color] dark:bg-[--card-dark-bg]">
-                            <div aria-hidden="true" class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-gray-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-0 dark:group-hover:opacity-5"></div>
+                        <div class="glow-navy relative group overflow-hidden p-[--card-padding] rounded-[--card-border-radius] bg-[--card-dark-bg] border border-[--ui-dark-border-color] dark:border-[--ui-dark-border-color] dark:bg-[--card-dark-bg]">
+                            <div aria-hidden="true" class="from-white to-white blur-2xl opacity-25 opacity-0 group-hover:opacity-10 inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-gray-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-0 dark:group-hover:opacity-5"></div>
                             <div class="relative">
-                                <div class="border border-gray-500/10 flex relative *:relative *:size-6 *:m-auto  text-gray-950 dark:text-white size-12 rounded-[calc(var(--card-border-radius)/2)] dark:bg-gray-900 dark:border-white/15 before:rounded-[calc((var(--card-border-radius)/2)-1px)] before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
+                                <div class="border border-gray-500/10 flex relative *:relative *:size-6 *:m-auto  text-white dark:text-white size-12 rounded-[calc(var(--card-border-radius)/2)] bg-gray-900 border-white/15  before:border-white/20 before:bg-gradient-to-b before:from-white/10 before:to-transparent before:shadow before:shadow-gray-950 dark:bg-gray-900 dark:border-white/15 before:rounded-[calc((var(--card-border-radius)/2)-1px)] before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 15 15"><path fill="currentColor" d="m4.5 4.5l.405-.293A.5.5 0 0 0 4 4.5zm3 9.5A6.5 6.5 0 0 1 1 7.5H0A7.5 7.5 0 0 0 7.5 15zM14 7.5A6.5 6.5 0 0 1 7.5 14v1A7.5 7.5 0 0 0 15 7.5zM7.5 1A6.5 6.5 0 0 1 14 7.5h1A7.5 7.5 0 0 0 7.5 0zm0-1A7.5 7.5 0 0 0 0 7.5h1A6.5 6.5 0 0 1 7.5 1zM5 12V4.5H4V12zm-.905-7.207l6.5 9l.81-.586l-6.5-9zM10 4v6h1V4z"/></svg>
                                 </div>
 
                                 <div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
-                                    <h2 class="text-lg font-medium text-gray-800 transition dark:text-white text-left">Influencer Identification</h2>
-                                    <p class="text-gray-700 dark:text-gray-300 mt-4 text-left">Easily categorize influencers as promoters or defamers of your brand.</p>
+                                    <h2 class="text-lg font-medium text-white transition dark:text-white text-left">Influencer Identification</h2>
+                                    <p class="text-gray-300 dark:text-gray-300 mt-4 text-left">Easily categorize influencers as promoters or defamers of your brand.</p>
                                 </div>
                                 <!-- <div class="flex gap-3 -mb-[--card-padding] py-4 border-t border-[--ui-light-border-color] dark:border-[--ui-dark-border-color]">
                                     <a href="#" download="/" class="group rounded-[--btn-border-radius] disabled:border *:select-none [&>*:not(.sr-only)]:relative *:disabled:opacity-20 disabled:text-gray-950 disabled:border-gray-200 disabled:bg-gray-100 dark:disabled:border-gray-800/50 disabled:dark:bg-gray-900 dark:*:disabled:!text-white text-gray-950 bg-gray-100 hover:bg-gray-200/75 active:bg-gray-100 dark:text-white dark:bg-gray-500/10 dark:hover:bg-gray-500/15 dark:active:bg-gray-500/10 flex gap-1.5 items-center text-sm h-8 px-3.5 justify-center">
@@ -351,16 +351,16 @@
                                 </div> -->
                             </div>
                         </div>
-                        <div class="glow-navy relative group overflow-hidden p-[--card-padding] rounded-[--card-border-radius] bg-white border border-[--ui-light-border-color] dark:border-[--ui-dark-border-color] dark:bg-[--card-dark-bg]">
-                            <div aria-hidden="true" class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-warning-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-0 dark:group-hover:opacity-5"></div>
+                        <div class="glow-navy relative group overflow-hidden p-[--card-padding] rounded-[--card-border-radius] bg-[--card-dark-bg] border border-[--ui-dark-border-color] dark:border-[--ui-dark-border-color] dark:bg-[--card-dark-bg]">
+                            <div aria-hidden="true" class="from-white to-white blur-2xl opacity-25 opacity-0 group-hover:opacity-10 inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-warning-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-0 dark:group-hover:opacity-5"></div>
                             <div class="relative">
-                                <div class="border border-warning-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-[calc(var(--card-border-radius)/2)] dark:bg-gray-900 dark:border-white/15 before:rounded-[calc((var(--card-border-radius)/2)-1px)] before:absolute before:inset-0 before:border-t before:border-white before:from-warning-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
+                                <div class="border border-warning-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-[calc(var(--card-border-radius)/2)] bg-gray-900 border-white/15  before:border-white/20 before:bg-gradient-to-b before:from-white/10 before:to-transparent before:shadow before:shadow-gray-950 dark:bg-gray-900 dark:border-white/15 before:rounded-[calc((var(--card-border-radius)/2)-1px)] before:absolute before:inset-0 before:border-t before:border-white before:from-warning-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="0.73em" height="1em" viewBox="0 0 256 351"><defs><filter id="logosFirebase0" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox"><feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="17.5"/><feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/><feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/><feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/></filter><filter id="logosFirebase1" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox"><feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="3.5"/><feOffset dx="1" dy="-9" in="shadowBlurInner1" result="shadowOffsetInner1"/><feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/><feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.09 0"/></filter><path id="logosFirebase2" d="m1.253 280.732l1.605-3.131l99.353-188.518l-44.15-83.475C54.392-1.283 45.074.474 43.87 8.188z"/><path id="logosFirebase3" d="m134.417 148.974l32.039-32.812l-32.039-61.007c-3.042-5.791-10.433-6.398-13.443-.59l-17.705 34.109l-.53 1.744z"/></defs><path fill="#ffc24a" d="m0 282.998l2.123-2.972L102.527 89.512l.212-2.017L58.48 4.358C54.77-2.606 44.33-.845 43.114 6.951z"/><use fill="#ffa712" fill-rule="evenodd" href="#logosFirebase2"/><use filter="url(#logosFirebase0)" href="#logosFirebase2"/><path fill="#f4bd62" d="m135.005 150.38l32.955-33.75l-32.965-62.93c-3.129-5.957-11.866-5.975-14.962 0L102.42 87.287v2.86z"/><use fill="#ffa50e" fill-rule="evenodd" href="#logosFirebase3"/><use filter="url(#logosFirebase1)" href="#logosFirebase3"/><path fill="#f6820c" d="m0 282.998l.962-.968l3.496-1.42l128.477-128l1.628-4.431l-32.05-61.074z"/><path fill="#fde068" d="m139.121 347.551l116.275-64.847l-33.204-204.495c-1.039-6.398-8.888-8.927-13.468-4.34L0 282.998l115.608 64.548a24.126 24.126 0 0 0 23.513.005"/><path fill="#fcca3f" d="M254.354 282.16L221.402 79.218c-1.03-6.35-7.558-8.977-12.103-4.424L1.29 282.6l114.339 63.908a23.943 23.943 0 0 0 23.334.006z"/><path fill="#eeab37" d="M139.12 345.64a24.126 24.126 0 0 1-23.512-.005L.931 282.015l-.93.983l115.607 64.548a24.126 24.126 0 0 0 23.513.005l116.275-64.847l-.285-1.752z"/></svg>
                                 </div>
 
                                 <div class="mt-6 pb-6 rounded-b-[--card-border-radius] ">
-                                    <h2 class="text-lg font-medium text-gray-800 transition  dark:text-white text-left">Proactive Crisis Management</h2>
-                                    <p class="text-gray-700 dark:text-gray-300 mt-4 text-left">Stay a step ahead with real-time alerts on emerging threats and negative sentiment.</p>
+                                    <h2 class="text-lg font-medium text-white transition  dark:text-white text-left">Proactive Crisis Management</h2>
+                                    <p class="text-gray-300 dark:text-gray-300 mt-4 text-left">Stay a step ahead with real-time alerts on emerging threats and negative sentiment.</p>
                                 </div>
                                 <!-- <div class="flex gap-3 -mb-[--card-padding] py-4 border-t border-[--ui-light-border-color] dark:border-[--ui-dark-border-color]">
                                     <a href="#" download="/" class="group rounded-[--btn-border-radius] disabled:border *:select-none [&>*:not(.sr-only)]:relative *:disabled:opacity-20 disabled:text-gray-950 disabled:border-gray-200 disabled:bg-gray-100 dark:disabled:border-gray-800/50 disabled:dark:bg-gray-900 dark:*:disabled:!text-white text-gray-950 bg-gray-100 hover:bg-gray-200/75 active:bg-gray-100 dark:text-white dark:bg-gray-500/10 dark:hover:bg-gray-500/15 dark:active:bg-gray-500/10 flex gap-1.5 items-center text-sm h-8 px-3.5 justify-center">
@@ -374,16 +374,16 @@
                                 </div> -->
                             </div>
                         </div>
-                        <div class="glow-navy relative group overflow-hidden p-[--card-padding] rounded-[--card-border-radius] bg-white border border-[--ui-light-border-color] dark:border-[--ui-dark-border-color] dark:bg-[--card-dark-bg]">
-                            <div aria-hidden="true" class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-info-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-0 dark:group-hover:opacity-5"></div>
+                        <div class="glow-navy relative group overflow-hidden p-[--card-padding] rounded-[--card-border-radius] bg-[--card-dark-bg] border border-[--ui-dark-border-color] dark:border-[--ui-dark-border-color] dark:bg-[--card-dark-bg]">
+                            <div aria-hidden="true" class="from-white to-white blur-2xl opacity-25 opacity-0 group-hover:opacity-10 inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-info-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-0 dark:group-hover:opacity-5"></div>
                             <div class="relative">
-                                <div class="border border-info-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-[calc(var(--card-border-radius)/2)] dark:bg-gray-900 dark:border-white/15 before:rounded-[calc((var(--card-border-radius)/2)-1px)] before:absolute before:inset-0 before:border-t before:border-white before:from-info-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
+                                <div class="border border-info-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-[calc(var(--card-border-radius)/2)] bg-gray-900 border-white/15  before:border-white/20 before:bg-gradient-to-b before:from-white/10 before:to-transparent before:shadow before:shadow-gray-950 dark:bg-gray-900 dark:border-white/15 before:rounded-[calc((var(--card-border-radius)/2)-1px)] before:absolute before:inset-0 before:border-t before:border-white before:from-info-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 128 128"><path fill="#0080ff" d="M64.142 102.96H39.24V78.522h24.903ZM39.24 122.131H20.373v-19.173H39.24Zm-18.866-19.173H4.53V87.167h15.843Zm43.394 24.814v-24.814c26.41 0 46.784-25.94 36.597-53.388c-3.775-10.15-11.694-18.42-22.26-22.181c-27.167-9.772-53.2 10.527-53.2 36.468H0c0-41.354 40.37-74.064 84.52-60.53c19.242 6.017 34.334 21.055 40.37 40.23c13.581 43.985-19.245 84.214-61.123 84.214Zm0 0"/></svg>
                                 </div>
 
                                 <div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
-                                    <h2 class="text-lg font-medium text-gray-800 transition dark:text-white text-left">Daily Reporting</h2>
-                                    <p class="text-gray-700 dark:text-gray-300 mt-4 text-left">Every day, receive in-depth reports that meticulously capture the evolving landscape of your brand’s perception..</p>
+                                    <h2 class="text-lg font-medium text-white transition dark:text-white text-left">Daily Reporting</h2>
+                                    <p class="text-gray-300 dark:text-gray-300 mt-4 text-left">Every day, receive in-depth reports that meticulously capture the evolving landscape of your brand’s perception..</p>
                                 </div>
                                 <!-- <div class="flex gap-3 -mb-[--card-padding] py-4 border-t border-[--ui-light-border-color] dark:border-[--ui-dark-border-color]">
                                     <a href="#" download="/" class="group rounded-[--btn-border-radius] disabled:border *:select-none [&>*:not(.sr-only)]:relative *:disabled:opacity-20 disabled:text-gray-950 disabled:border-gray-200 disabled:bg-gray-100 dark:disabled:border-gray-800/50 disabled:dark:bg-gray-900 dark:*:disabled:!text-white text-gray-950 bg-gray-100 hover:bg-gray-200/75 active:bg-gray-100 dark:text-white dark:bg-gray-500/10 dark:hover:bg-gray-500/15 dark:active:bg-gray-500/10 flex gap-1.5 items-center text-sm h-8 px-3.5 justify-center">
@@ -679,12 +679,12 @@
                     <div class="grid gap-12 md:gap-0 md:grid-cols-2 lg:grid-cols-5 items-center lg:gap-24">
                         <div class="lg:col-span-2">
                             <div class="md:pr-6 lg:pr-0">
-                                <h2 class="text-3xl text-gray-950 dark:text-white font-semibold text-left">Revolutionize Brand Insights with <span class="highlight-text">Video Processing</span></h2>
-                                <p class="mt-6 text-gray-700 dark:text-gray-300 text-left">Stand out with our unique ability to process video content. Delve into what's being discussed in influencer videos, unlocking powerful insights that others miss.</p>
+                                <h2 class="text-3xl text-white dark:text-white font-semibold text-left">Revolutionize Brand Insights with <span class="highlight-text">Video Processing</span></h2>
+                                <p class="mt-6 text-gray-300 dark:text-gray-300 text-left">Stand out with our unique ability to process video content. Delve into what's being discussed in influencer videos, unlocking powerful insights that others miss.</p>
                             </div>
                           
                         </div>
-                        <div class="overflow-hidden lg:col-span-3 border bg-white dark:bg-[--card-dark-bg] rounded-[--card-border-radius] border-[--ui-light-border-color] dark:border-[--ui-dark-border-color]">
+                        <div class="overflow-hidden lg:col-span-3 border bg-[--card-dark-bg] dark:bg-[--card-dark-bg] rounded-[--card-border-radius] border-[--ui-dark-border-color] dark:border-[--ui-dark-border-color]">
                             <div class="flex gap-2 py-6 *:size-2.5 *:rounded-full px-[--card-padding]">
                                 <div class="bg-[#f87171]"></div>
                                 <div class="bg-[#fbbf24]"></div>
@@ -710,7 +710,7 @@
                 <div class="mx-auto px-6 max-w-6xl text-gray-500">
                     <div class="grid gap-12 md:gap-0 md:grid-cols-2 lg:grid-cols-5 items-center lg:gap-24">
                         
-                        <div class="overflow-hidden lg:col-span-3 border bg-white dark:bg-[--card-dark-bg] rounded-[--card-border-radius] border-[--ui-light-border-color] dark:border-[--ui-dark-border-color]">
+                        <div class="overflow-hidden lg:col-span-3 border  bg-[--card-dark-bg] dark:bg-[--card-dark-bg] rounded-[--card-border-radius] border-[--ui-dark-border-color] dark:border-[--ui-dark-border-color]">
                             <div class="flex gap-2 py-6 *:size-2.5 *:rounded-full px-[--card-padding]">
                                 <div class="bg-[#f87171]"></div>
                                 <div class="bg-[#fbbf24]"></div>
@@ -721,8 +721,8 @@
                         </div>
                         <div class="lg:col-span-2">
                             <div class="md:pr-6 lg:pr-0">
-                                <h2 class="text-3xl text-gray-950 dark:text-white font-semibold text-left">Unleash the Most Powerful GenAI <span class="highlight-text">Third Eye</span></h2>
-                                <p class="mt-6 text-gray-700 dark:text-gray-300 text-left">Experience unmatched vigilance with our GenAI Third Eye, continuously monitoring and analyzing your brand's presence. It's not just about data collection but about transforming this data into a strategic asset, ensuring you're always informed and ahead.</p>
+                                <h2 class="text-3xl text-white dark:text-white font-semibold text-left">Unleash the Most Powerful GenAI <span class="highlight-text">Third Eye</span></h2>
+                                <p class="mt-6 text-gray-300 dark:text-gray-300 text-left">Experience unmatched vigilance with our GenAI Third Eye, continuously monitoring and analyzing your brand's presence. It's not just about data collection but about transforming this data into a strategic asset, ensuring you're always informed and ahead.</p>
                             </div>
                           
                         </div>
@@ -736,12 +736,12 @@
                     <div class="grid gap-12 md:gap-0 md:grid-cols-2 lg:grid-cols-5 items-center lg:gap-24">
                         <div class="lg:col-span-2">
                             <div class="md:pr-6 lg:pr-0">
-                                <h2 class="text-3xl text-gray-950 dark:text-white font-semibold text-left">Gauge Public Opinion with <span class="highlight-text">Sentiment Analysis</span> and Engagement Tracking</h2>
-                                <p class="mt-6 text-gray-700 dark:text-gray-300 text-left">Tap into the emotions driving user interactions. Our advanced tools not only analyze sentiments behind comments but also provide a comprehensive look at engagement metrics, revealing how audiences are truly responding to video content.</p>
+                                <h2 class="text-3xl text-white dark:text-white font-semibold text-left">Gauge Public Opinion with <span class="highlight-text">Sentiment Analysis</span> and Engagement Tracking</h2>
+                                <p class="mt-6 text-gray-300 dark:text-gray-300 text-left">Tap into the emotions driving user interactions. Our advanced tools not only analyze sentiments behind comments but also provide a comprehensive look at engagement metrics, revealing how audiences are truly responding to video content.</p>
                             </div>
                           
                         </div>
-                        <div class="overflow-hidden lg:col-span-3 border bg-white dark:bg-[--card-dark-bg] rounded-[--card-border-radius] border-[--ui-light-border-color] dark:border-[--ui-dark-border-color]">
+                        <div class="overflow-hidden lg:col-span-3 border bg-[--card-dark-bg] dark:bg-[--card-dark-bg] rounded-[--card-border-radius] border-[--ui-dark-border-color] dark:border-[--ui-dark-border-color]">
                             <div class="flex gap-2 py-6 *:size-2.5 *:rounded-full px-[--card-padding]">
                                 <div class="bg-[#f87171]"></div>
                                 <div class="bg-[#fbbf24]"></div>
@@ -759,7 +759,7 @@
                 <div class="mx-auto px-6 max-w-6xl text-gray-500">
                     <div class="grid gap-12 md:gap-0 md:grid-cols-2 lg:grid-cols-5 items-center lg:gap-24">
                         
-                        <div class="overflow-hidden lg:col-span-3 border bg-white dark:bg-[--card-dark-bg] rounded-[--card-border-radius] border-[--ui-light-border-color] dark:border-[--ui-dark-border-color]">
+                        <div class="overflow-hidden lg:col-span-3 border bg-[--card-dark-bg] dark:bg-[--card-dark-bg] rounded-[--card-border-radius] border-[--ui-dark-border-color] dark:border-[--ui-dark-border-color]">
                             <div class="flex gap-2 py-6 *:size-2.5 *:rounded-full px-[--card-padding]">
                                 <div class="bg-[#f87171]"></div>
                                 <div class="bg-[#fbbf24]"></div>
@@ -770,8 +770,8 @@
                         </div>
                         <div class="lg:col-span-2">
                             <div class="md:pr-6 lg:pr-0">
-                                <h2 class="text-3xl text-gray-950 dark:text-white font-semibold text-left">Strategically Identify Key Influencers: <span class="highlight-text">Promoters and Defamers</span></h2>
-                                <p class="mt-6 text-gray-700 dark:text-gray-300 text-left">Efficiently discern which influencers are boosting your brand and which might be harming it. Access their content directly to understand their influence on your brand's reputation, enabling more informed strategic decisions.</p>
+                                <h2 class="text-3xl text-white dark:text-white font-semibold text-left">Strategically Identify Key Influencers: <span class="highlight-text">Promoters and Defamers</span></h2>
+                                <p class="mt-6 text-gray-300 dark:text-gray-300 text-left">Efficiently discern which influencers are boosting your brand and which might be harming it. Access their content directly to understand their influence on your brand's reputation, enabling more informed strategic decisions.</p>
                             </div>
                           
                         </div>
@@ -782,12 +782,12 @@
         <section id="Pricing">
             <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-24 lg:px-6">
                 <div class="max-w-screen-md mx-auto mb-10 text-center lg:mb-20">
-                    <h2 class="mb-30 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Ready to Elevate Your Brand's Reputation?</h2>
+                    <h2 class="mb-30 text-3xl font-extrabold tracking-tight text-white dark:text-white">Ready to Elevate Your Brand's Reputation?</h2>
                     <!-- <p class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">Here at Landwind we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p> -->
                 </div>
                 <div class="mt-12 space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
                     <!-- Pricing Card -->
-                    <div class="glow-navy relative group overflow-hidden text-white p-[--card-padding] rounded-[--card-border-radius] bg-white border border-[--ui-light-border-color] dark:border-[--ui-dark-border-color] dark:bg-[--card-dark-bg]">
+                    <div class="glow-navy relative group overflow-hidden text-white p-[--card-padding] rounded-[--card-border-radius] bg-[--card-dark-bg] border border-[--ui-dark-border-color] dark:border-[--ui-dark-border-color] dark:bg-[--card-dark-bg]">
                         <h3 class="mb-4 text-2xl text-white font-semibold">Individual</h3>
                         <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Ideal for individuals and newcomers to brand management, key features for an affordable start in personal brand building.</p>
                         <div class="flex items-baseline justify-center my-8">
@@ -821,7 +821,7 @@
                         <a class="contact-btn button-hover text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900">Get started</a>
                     </div>
                     <!-- Pricing Card -->
-                    <div class="glow-navy relative group overflow-hidden text-white p-[--card-padding] rounded-[--card-border-radius] bg-white border border-[--ui-light-border-color] dark:border-[--ui-dark-border-color] dark:bg-[--card-dark-bg]">
+                    <div class="glow-navy relative group overflow-hidden text-white p-[--card-padding] rounded-[--card-border-radius] bg-[--card-dark-bg] border border-[--ui-dark-border-color] dark:border-[--ui-dark-border-color] dark:bg-[--card-dark-bg]">
                         <h3 class="mb-4 text-2xl text-white font-semibold">Basic</h3>
                         <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Just starting out? Our startup and small business plans provide the essential tools you need at a budget-friendly price</p>
                         <div class="flex items-baseline justify-center my-8">
@@ -855,7 +855,7 @@
                         <a  class="contact-btn button-hover text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900">Get started</a>
                     </div>
                     <!-- Pricing Card -->
-                    <div class="glow-navy relative group overflow-hidden text-white p-[--card-padding] rounded-[--card-border-radius] bg-white border border-[--ui-light-border-color] dark:border-[--ui-dark-border-color] dark:bg-[--card-dark-bg]">
+                    <div class="glow-navy relative group overflow-hidden text-white p-[--card-padding] rounded-[--card-border-radius] bg-[--card-dark-bg] border border-[--ui-dark-border-color] dark:border-[--ui-dark-border-color] dark:bg-[--card-dark-bg]">
                         <h3 class="mb-4 text-2xl text-white font-semibold">Enterprise</h3>
                         <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Specially crafted for large organizations, scalable features tailored to meet extensive requirements.</p>
                         <div class="flex items-baseline justify-center my-8">
@@ -1160,7 +1160,7 @@
     </main>
     
 
-    <footer class="rounded-xl mt-20 border border-[--ui-light-border-color] dark:border-[--ui-dark-border-color]">
+    <footer class="rounded-xl mt-20 border border-[--ui-dark-border-color] dark:border-[--ui-dark-border-color]">
         <div class="max-w-6xl mx-auto space-y-16 px-6 py-16 text-gray-600 2xl:px-0">
             <!-- <div class="flex flex-wrap items-center justify-between gap-4 border-b pb-8 border-[--ui-light-border-color] dark:border-[--ui-dark-border-color]">
                 <a href="/" aria-label="nexicorn logo">
@@ -1285,9 +1285,9 @@
                     </form>
                 </div>
             </div> -->
-            <div class="flex items-center justify-between rounded-md bg-gray-100 px-6 py-3 dark:bg-gray-900">
-                <span class="text-gray-600 dark:text-gray-400">&copy; 2024 Vision</span>
-                <a href="#" class="text-sm text-gray-600 dark:text-gray-400 ">Made with ❤️ by team Nexicorn</a>
+            <div class="flex items-center justify-between rounded-md bg-gray-900 px-6 py-3 dark:bg-gray-900">
+                <span class="text-gray-400 dark:text-gray-400">&copy; 2024 Vision</span>
+                <a href="#" class="text-sm text-gray-400 dark:text-gray-400 ">Made with ❤️ by team Nexicorn</a>
             </div>
         </div>
     </footer>
