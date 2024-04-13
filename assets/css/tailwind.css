@@ -43,11 +43,11 @@
 }
 
 .swiper-pagination-bullet{
-    @apply !bg-gray-200 dark:!bg-gray-700 !opacity-100;
+    @apply !bg-gray-700 !opacity-100 dark:!bg-gray-700 !opacity-100;
 }
 
 .swiper-pagination-bullet-active{
-    @apply !bg-gray-950 dark:!bg-white;
+    @apply !bg-white dark:!bg-white;
 }
 
 @keyframes loop {
