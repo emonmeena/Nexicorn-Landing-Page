@@ -1,3 +1,27 @@
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #17f2ad; /* Adjusted color */
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #17f2ad; /* Adjusted color */
+}
+body {
+  scroll-behavior: smooth;
+}
+
 .logo{
     color: #FFD700;
 }

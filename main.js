@@ -40,7 +40,19 @@ var modal = document.getElementById('myModal');
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+      e.preventDefault();
 
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+          window.scrollTo({
+              top: target.offsetTop,
+              behavior: 'smooth'
+          });
+      }
+  });
+});
 function toggleBlurEffect() {
     document.getElementById('page-content').classList.toggle('blur-effect');
     document.body.classList.toggle('prevent-scroll');
