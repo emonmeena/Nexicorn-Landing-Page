@@ -1,26 +1,28 @@
 :root {
   --main_green: #1ba44d;
 }
+/* 
 ::-webkit-scrollbar {
   width: 8px;
 }
-/* Track */
+Track
 ::-webkit-scrollbar-track {
   background: transparent; 
 }
-/* Handle */
+Handle
 ::-webkit-scrollbar-thumb {
   background: var(--main_green); 
   border-radius: 6px;
 }
-/* Handle on hover */
+Handle on hover
 ::-webkit-scrollbar-thumb:hover {
   background: var(--main_green); 
 }
+*/
 /* Hide scrollbar */
 .hide-scrollbar::-webkit-scrollbar {
   width: 0;
-}
+} 
 
 
 
