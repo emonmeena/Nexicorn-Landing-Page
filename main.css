@@ -1,3 +1,7 @@
+:root {
+  --main_green: #1ba44d;
+}
+
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -7,17 +11,18 @@
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #17f2ad; /* Adjusted color */
+  background: var(--main_green); 
   border-radius: 6px;
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #17f2ad; /* Adjusted color */
+  background: var(--main_green); 
 }
 /* Hide scrollbar */
 .hide-scrollbar::-webkit-scrollbar {
   width: 0;
 }
+
 
 
 .logo{
