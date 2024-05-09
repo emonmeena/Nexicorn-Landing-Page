@@ -1,13 +1,12 @@
 :root {
   --main_green: #1ba44d;
 }
-
 ::-webkit-scrollbar {
   width: 8px;
 }
 /* Track */
 ::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0.2);
+  background: transparent; 
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
@@ -22,6 +21,7 @@
 .hide-scrollbar::-webkit-scrollbar {
   width: 0;
 }
+
 
 
 
