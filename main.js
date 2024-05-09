@@ -1,5 +1,20 @@
 import "./assets/css/tailwind.css";
 
+let isScrolling = false;
+
+  window.addEventListener('scroll', function() {
+    if (!isScrolling) {
+      document.body.classList.remove('hide-scrollbar'); // Show scrollbar on scroll
+    }
+    isScrolling = true;
+
+    clearTimeout(window.scrollTimer);
+    window.scrollTimer = setTimeout(function() {
+      isScrolling = false;
+      document.body.classList.add('hide-scrollbar');
+    }, 200);
+  });
+
 let switchers = document.querySelectorAll(".switcher");
 if (
   localStorage.getItem("color-theme") === "dark" ||
@@ -42,65 +57,72 @@ var modal = document.getElementById('myModal');
 var span = document.getElementsByClassName("close")[0];
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
-      e.preventDefault();
+    e.preventDefault();
 
-      const target = document.querySelector(this.getAttribute('href'));
-      if (target) {
-          window.scrollTo({
-              top: target.offsetTop,
-              behavior: 'smooth'
-          });
-      }
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) {
+      window.scrollTo({
+        top: target.offsetTop,
+        behavior: 'smooth'
+      });
+    }
   });
 });
 function toggleBlurEffect() {
-    document.getElementById('page-content').classList.toggle('blur-effect');
-    document.body.classList.toggle('prevent-scroll');
-    modal.toggle('blur-effect')
-  }
+  document.getElementById('page-content').classList.toggle('blur-effect');
+  document.body.classList.toggle('prevent-scroll');
+  modal.toggle('blur-effect')
+}
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-    modal.style.display = "none";
-    toggleBlurEffect();
+span.onclick = function () {
+  modal.style.display = "none";
+  document.body.classList.add('hide-scrollbar');
+
+  toggleBlurEffect();
 }
 
 var btns = document.querySelectorAll('.contact-btn');
-btns.forEach(function(btn) {
-    btn.onclick = function() {
-      modal.style.display = 'block';
-      toggleBlurEffect();
-    }
-  });
+btns.forEach(function (btn) {
+  btn.onclick = function () {
+    modal.style.display = 'block';
+    document.body.classList.add('hide-scrollbar');
 
-  window.onclick = function(event) {
-    if (event.target == modal) {
-      modal.style.display = 'none';
-      toggleBlurEffect();
-    }
+
+
+    toggleBlurEffect();
   }
+});
 
-  function toggleMenu() {
-    var navContainer = document.getElementById("nav-container");
-    var line1 = document.getElementById("line1");
-    var line2 = document.getElementById("line2");
-    document.body.classList.toggle('prevent-scroll');
-
-
-    // line1.classList.toggle("transform-line1");
-    // line2.classList.toggle("transform-line2");
-    var header = document.getElementById("header")
-    header.classList.toggle("hidden");
-    navContainer.classList.toggle("hidden");
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = 'none';
+    toggleBlurEffect();
+  }
 }
- var menuHamburger = document.getElementById("menu")
- var menuHamburgerclose = document.getElementById("close-mb-menu")
+
+function toggleMenu() {
+  var navContainer = document.getElementById("nav-container");
+  var line1 = document.getElementById("line1");
+  var line2 = document.getElementById("line2");
+  document.body.classList.toggle('prevent-scroll');
+  document.body.classList.add('hide-scrollbar');
+
+
+  // line1.classList.toggle("transform-line1");
+  // line2.classList.toggle("transform-line2");
+  var header = document.getElementById("header")
+  header.classList.toggle("hidden");
+  navContainer.classList.toggle("hidden");
+}
+var menuHamburger = document.getElementById("menu")
+var menuHamburgerclose = document.getElementById("close-mb-menu")
 
 menuHamburger.onclick = toggleMenu;
 menuHamburgerclose.onclick = toggleMenu;
 
 
 var mobMenuBtns = document.querySelectorAll('.mobile-menu-btn');
-mobMenuBtns.forEach(function(btn) {
-    btn.onclick = toggleMenu;
-  });
+mobMenuBtns.forEach(function (btn) {
+  btn.onclick = toggleMenu;
+});
 //
