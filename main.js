@@ -1,19 +1,5 @@
 import "./assets/css/tailwind.css";
 
-// let isScrolling = false;
-
-//   window.addEventListener('scroll', function() {
-//     if (!isScrolling) {
-//       document.body.classList.remove('hide-scrollbar'); // Show scrollbar on scroll
-//     }
-//     isScrolling = true;
-
-//     clearTimeout(window.scrollTimer);
-//     window.scrollTimer = setTimeout(function() {
-//       isScrolling = false;
-//       document.body.classList.add('hide-scrollbar');
-//     }, 200);
-//   });
 
 let switchers = document.querySelectorAll(".switcher");
 if (
@@ -76,8 +62,6 @@ function toggleBlurEffect() {
 // When the user clicks on <span> (x), close the modal
 span.onclick = function () {
   modal.style.display = "none";
-  // document.body.classList.add('hide-scrollbar');
-
   toggleBlurEffect();
 }
 
@@ -85,10 +69,6 @@ var btns = document.querySelectorAll('.contact-btn');
 btns.forEach(function (btn) {
   btn.onclick = function () {
     modal.style.display = 'block';
-    // document.body.classList.add('hide-scrollbar');
-
-
-
     toggleBlurEffect();
   }
 });
@@ -105,7 +85,6 @@ function toggleMenu() {
   var line1 = document.getElementById("line1");
   var line2 = document.getElementById("line2");
   document.body.classList.toggle('prevent-scroll');
-  // document.body.classList.add('hide-scrollbar');
 
 
   // line1.classList.toggle("transform-line1");

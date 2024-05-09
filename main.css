@@ -1,14 +1,7 @@
 :root {
   --main_green: #1ba44d;
 }
-.hide-scrollbar::-webkit-scrollbar {
-  width: 0;
-} 
 
-
-.hide-scrollbar::-webkit-scrollbar {
-  display: none; /* Safari and Chrome */
-}
 .logo{
     color: #FFD700;
 }
