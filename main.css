@@ -1,6 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
 .logo{
     color: #FFD700;
 }
+
 
 
 .glowing-text {
