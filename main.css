@@ -1,25 +1,5 @@
-/* Custom scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0.2);
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #17f2ad; /* Adjusted color */
-  border-radius: 6px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #17f2ad; /* Adjusted color */
-}
-body {
-  scroll-behavior: smooth;
+:root {
+  --main_green: #1ba44d;
 }
 
 .logo{
@@ -163,13 +143,16 @@ body {
   /* Style the submit button */
   .btn-submit {
     width: 100%;
-    background-color: #372d91 !important; /* Adjust the color to match your brand */
+    background-color: #372d91 !important; 
+    /* background: #17f2ad!important;  */
     color: white;
+    font-weight: 600;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
     border-radius: 2%;
     cursor: pointer;
+    border-radius: 40px;
   }
   
   .btn-submit:hover {
