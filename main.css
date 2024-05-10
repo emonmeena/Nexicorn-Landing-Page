@@ -1,3 +1,7 @@
+:root {
+  --main_green: #1ba44d;
+}
+
 .logo{
     color: #FFD700;
 }
@@ -139,13 +143,16 @@
   /* Style the submit button */
   .btn-submit {
     width: 100%;
-    background-color: #372d91 !important; /* Adjust the color to match your brand */
+    background-color: #372d91 !important; 
+    /* background: #17f2ad!important;  */
     color: white;
+    font-weight: 600;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
     border-radius: 2%;
     cursor: pointer;
+    border-radius: 40px;
   }
   
   .btn-submit:hover {
