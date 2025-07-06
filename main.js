@@ -92,3 +92,12 @@ mobMenuBtns.forEach(function(btn) {
     btn.onclick = toggleMenu;
   });
 //
+
+document.getElementById('demo-call-form').onsubmit = function(e) {
+  e.preventDefault();
+  const phone = document.getElementById('demo-phone').value;
+  document.getElementById('demo-call-message').textContent = `Call landing at ${phone} shortly!`;
+  document.getElementById('demo-call-message').classList.remove('hidden');
+  console.log(`Demo call requested for phone: ${phone}`);
+  // TODO: Add your backend call logic here
+};
